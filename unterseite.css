@@ -1,0 +1,40 @@
+/* alle Elemente in der gleichen Größe Bsp Bild und Text*/
+* {
+  box-sizing: border-box;
+}
+
+/* Überschrift ohne Serifen*/
+h1 {
+  width: 600px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: orangered;
+}
+
+/*p soll werden 
+- die gleiche Schrift wie die Überschrift und 
+weiße Schrift auf schwarzem Grund NEU: widht= Breite und padding=innenabstand*/
+p {
+  width: 600px;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  background-color: black;
+  border: 2px orangered solid;
+}
+
+/* a=link in orangered, gleiche Schrift wie H1 nicht mehr unterstrichen*/
+a {
+  font-family: Arial, Helvetica, sans-serif;
+  color: orangered;
+  text-decoration: none;
+}
+
+/* Bildweite*/
+img {
+  width: 600px;
+}
+
+/*ID für ein einzigartiges Element*/
+#erste {
+  background-color: darkgreen;
+}
